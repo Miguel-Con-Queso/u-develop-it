@@ -25,7 +25,7 @@ const db = mysql.createConnection(
 // Get all candidates
 app.get('/api/candidates', (req, res) => {
   const sql = `SELECT candidates.*, parties.name
-              AS paryt_name
+              AS party_name
               FROM candidates
               LEFT JOIN parties
               ON candidates.party_id = parties.id`;
