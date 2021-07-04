@@ -7,22 +7,14 @@
     "express": "^4.17.1",
     "mysql2": "^2.2.5"
   },
+  "devDependencies": {
+    "jest": "^25.1.0"
+  },
   "scripts": {
     "test": "jest",
     "start": "node server.js"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "jest": "^26.6.3"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Miguel-Con-Queso/u-develop-it.git"
-  },
-  "bugs": {
-    "url": "https://github.com/Miguel-Con-Queso/u-develop-it/issues"
-  },
-  "homepage": "https://github.com/Miguel-Con-Queso/u-develop-it#readme"
+  "license": "ISC"
 }
